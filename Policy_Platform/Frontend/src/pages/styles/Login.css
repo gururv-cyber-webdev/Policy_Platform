@@ -1,0 +1,105 @@
+/* ====== General Page ====== */
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: linear-gradient(135deg, #f9fafb, #eef2f7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* ====== Container ====== */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* ====== Card ====== */
+.card {
+  background: #fff;
+  padding: 40px 35px;
+  width: 380px;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* ====== Headings ====== */
+.card h2 {
+  margin-bottom: 6px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.muted {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* ====== Input Fields ====== */
+.input {
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 93%;
+  transition: all 0.2s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* ====== Buttons ====== */
+.btn {
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background: #1e40af;
+  transform: scale(1.02);
+}
+
+.btn.secondary {
+  background: #f3f4f6;
+  color: #111827;
+  font-weight: 500;
+}
+
+.btn.secondary:hover {
+  background: #e5e7eb;
+}
+
+/* ====== Error Message ====== */
+.error {
+  color: #dc2626;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* ====== Footer (register link) ====== */
+.footer {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
